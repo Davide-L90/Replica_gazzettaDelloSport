@@ -1,0 +1,39 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body{
+   background-color: #FDE9EB;
+}
+
+
+//author below every article title
+.author{
+   color: #F6782B;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+//little icon of text below author
+.fa-align-left{
+   background-color: $orangeColor;
+   padding: 3px 4px;
+   font-size: 12px;
+   border-radius: 3px;
+   margin-right: 10px;
+}
+
+//style for article with small pictures
+.article_title{
+   color: $orangeColor;
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.article_description{
+   font-weight: bold;
+}

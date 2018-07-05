@@ -1,0 +1,44 @@
+.list_cnt{
+
+   h5{
+      font-size: 16px;
+      padding: 10px 0;
+      margin-bottom: 0;
+      font-weight: bold;
+      border-top: 2px solid black;
+      border-right: 1px solid $lineColor;
+      border-bottom: 1px solid $lineColor;
+   }
+
+   ul{
+      list-style: none;
+      font-size: 16px;
+      border-right: 1px solid $lineColor;
+
+      li{
+         padding: 5px 0;
+
+         a{
+            color: black;
+
+            &:hover{
+               text-decoration: none;
+            }
+         }
+
+         &#tennis{
+            display: flex;
+            justify-content: space-between;
+
+            span{
+               background-color: red;
+               color: white;
+               font-size: 14px;
+               padding: 0 10px;
+               margin-right: 10px;
+               border-radius: 3px;
+            }
+         }
+      }
+   }
+}

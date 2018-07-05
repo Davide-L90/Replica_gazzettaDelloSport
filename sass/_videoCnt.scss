@@ -1,0 +1,30 @@
+.video_cnt{
+   border: 5px solid black;
+   position: relative;
+
+   .play_bar{
+      position: absolute;
+      bottom: 0;
+      height: 50px;
+      display: flex;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+
+      .video_title{
+         color: white;
+         font-weight: 700;
+      }
+
+      .play_button{
+         align-self: center;
+         position: relative;
+         img{
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 5px;
+            width: 70%;
+            padding: 8px;
+            margin-left: 10px;
+         }
+      }
+   }
+}

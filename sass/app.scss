@@ -1,0 +1,14 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
+
+@import 'variables.scss';
+@import 'common.scss';
+
+//import partials
+@import 'header.scss';
+@import 'videoCnt.scss';
+@import 'listMenu.scss';
+@import 'centralColumn.scss';
+
+//media queries
+@import 'mediaQueries.scss';

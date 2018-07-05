@@ -1,0 +1,62 @@
+.with_border{
+   border-bottom: 1px solid $lineColor;
+}
+
+.central_cnt{
+   .main_image_cnt{
+      position: relative;
+      color: white;
+
+      img{
+         filter: brightness(50%);
+         width: 100%;
+      }
+
+      .central_img_desc{
+         position: absolute;
+         bottom: 0;
+         max-width: 100%;
+
+         .orange_result{
+            display: inline-block;
+            background-color: $orangeColor;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 0 5px;
+         }
+
+         h1{
+            font-weight: bold;
+         }
+
+         .details{
+            padding: 10px 0;
+            border-top: 1px solid $lineColor;
+            background-color: black;
+         }
+      }
+   }
+
+   .two_img_cnt{
+
+      img{
+         height: 170px;
+         width: 100%;
+      }
+
+      .other_articles{
+         border-top: 1px solid black;
+         font-weight: bold;
+
+         div{
+            margin: 5px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+         .fa-align-left{
+            color: white;
+         }
+      }
+   }
+}
