@@ -27,13 +27,37 @@ body{
 }
 
 //style for article with small pictures
-.article_title{
-   color: $orangeColor;
-   font-weight: bold;
-   font-size: 20px;
-   margin-top: 10px;
-}
 
-.article_description{
-   font-weight: bold;
+
+.minor_img_cnt{
+
+   img{
+      height: 170px;
+      width: 100%;
+   }
+   .article_title{
+      color: $orangeColor;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 10px;
+   }
+
+   .article_description{
+      font-weight: bold;
+   }
+   
+   .other_articles{
+      border-top: 1px solid black;
+      font-weight: bold;
+
+      div{
+         margin: 5px 0;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+      }
+      .fa-align-left{
+         color: white;
+      }
+   }
 }

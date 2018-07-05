@@ -9,17 +9,33 @@
    }
 }
 
+@media all and(max-width: 992px) {
+   .minor_img_cnt{
+
+      .of_right_column{
+         span{
+            display: block;
+         }
+      }
+   }
+}
+
 @media all and(max-width: 768px)
 {
    #video_wrapper{
       display: none;
    }
 
-   .two_img_cnt{
+   .minor_img_cnt{
 
       .small_img_cnt, .details_of_img{
          float: left;
          width: 50%;
+
+      }
+
+      p{
+         display: none;
       }
 
       .author_cnt{
@@ -28,6 +44,18 @@
 
       .other_articles{
          display: none;
+      }
+
+   }
+
+   .right_side_column{
+
+      h2{
+         font-size: 1.5rem;
+      }
+
+      .other_articles{
+
       }
    }
 }
@@ -66,6 +94,10 @@
             }
          }
       }
+   }
+
+   #right_image{
+      height: 170px;
    }
 
    .author_cnt{

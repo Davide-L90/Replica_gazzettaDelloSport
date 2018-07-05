@@ -29,15 +29,36 @@ body {
   margin-right: 10px;
 }
 
-.article_title {
+.minor_img_cnt img {
+  height: 170px;
+  width: 100%;
+}
+
+.minor_img_cnt .article_title {
   color: #F6782B;
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
 }
 
-.article_description {
+.minor_img_cnt .article_description {
   font-weight: bold;
+}
+
+.minor_img_cnt .other_articles {
+  border-top: 1px solid black;
+  font-weight: bold;
+}
+
+.minor_img_cnt .other_articles div {
+  margin: 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.minor_img_cnt .other_articles .fa-align-left {
+  color: white;
 }
 
 header #logo_cnt {
@@ -170,25 +191,8 @@ header #logo_cnt img {
   background-color: black;
 }
 
-.central_cnt .two_img_cnt img {
-  height: 170px;
-  width: 100%;
-}
-
-.central_cnt .two_img_cnt .other_articles {
-  border-top: 1px solid black;
-  font-weight: bold;
-}
-
-.central_cnt .two_img_cnt .other_articles div {
-  margin: 5px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.central_cnt .two_img_cnt .other_articles .fa-align-left {
-  color: white;
+#right_image {
+  height: auto;
 }
 
 @media all and (max-width: 1200px) {
@@ -201,23 +205,37 @@ header #logo_cnt img {
   }
 }
 
+@media all and (max-width: 992px) {
+  .minor_img_cnt .of_right_column span {
+    display: block;
+  }
+}
+
 @media all and (max-width: 768px) {
   #video_wrapper {
     display: none;
   }
 
-  .two_img_cnt .small_img_cnt,
-  .two_img_cnt .details_of_img {
+  .minor_img_cnt .small_img_cnt,
+  .minor_img_cnt .details_of_img {
     float: left;
     width: 50%;
   }
 
-  .two_img_cnt .author_cnt {
+  .minor_img_cnt p {
     display: none;
   }
 
-  .two_img_cnt .other_articles {
+  .minor_img_cnt .author_cnt {
     display: none;
+  }
+
+  .minor_img_cnt .other_articles {
+    display: none;
+  }
+
+  .right_side_column h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -250,6 +268,10 @@ header #logo_cnt img {
 
   .central_cnt .main_image_cnt .central_img_desc .details span:last-child {
     border-bottom: 1px solid black;
+  }
+
+  #right_image {
+    height: 170px;
   }
 
   .author_cnt {

@@ -36,27 +36,4 @@
          }
       }
    }
-
-   .two_img_cnt{
-
-      img{
-         height: 170px;
-         width: 100%;
-      }
-
-      .other_articles{
-         border-top: 1px solid black;
-         font-weight: bold;
-
-         div{
-            margin: 5px 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-         }
-         .fa-align-left{
-            color: white;
-         }
-      }
-   }
 }
