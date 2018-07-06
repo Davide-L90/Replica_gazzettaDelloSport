@@ -195,6 +195,15 @@ header #logo_cnt img {
   height: auto;
 }
 
+.side_banner {
+  background-color: #F3CACE;
+}
+
+.side_banner img {
+  padding: 20px;
+  width: 100%;
+}
+
 @media all and (max-width: 1200px) {
   .last_video_cnt {
     display: none;
@@ -236,6 +245,10 @@ header #logo_cnt img {
 
   .right_side_column h2 {
     font-size: 1.5rem;
+  }
+
+  .side_banner {
+    display: none !important;
   }
 }
 
