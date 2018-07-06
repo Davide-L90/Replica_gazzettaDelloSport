@@ -191,6 +191,36 @@ header #logo_cnt img {
   background-color: black;
 }
 
+.central_cnt .main_image_cnt .buttons_cnt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.central_cnt .main_image_cnt .buttons_cnt span {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.central_cnt .main_image_cnt .buttons_cnt span:first-child {
+  background-color: #F6782B;
+}
+
+.central_cnt .main_image_cnt .buttons_cnt span:first-child a {
+  color: white;
+}
+
+.central_cnt .main_image_cnt .buttons_cnt span:last-child {
+  border-left: 1px solid #BDADAE;
+}
+
+.central_cnt .main_image_cnt .buttons_cnt span:last-child a {
+  color: black;
+}
+
 #right_image {
   height: auto;
 }
@@ -283,8 +313,8 @@ header #logo_cnt img {
     border-bottom: 1px solid black;
   }
 
-  #right_image {
-    height: 170px;
+  .small_img_cnt img {
+    height: 150px !important;
   }
 
   .author_cnt {
